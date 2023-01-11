@@ -34,6 +34,8 @@
                   v-on="on"
                   icon
                 >
+                <a v-bind:href="icon.url" target="_blank">
+
                   <v-icon
                     class="social_icons"
                     size="24px"
@@ -42,6 +44,7 @@
                   >
                     {{ icon.icon }}
                   </v-icon>
+                </a>
                 </v-btn>
               </template>
               <span>{{ icon.title }}</span>

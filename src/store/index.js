@@ -6,7 +6,7 @@ Vue.use(Vuex);
 export default new Vuex.Store({
   state: {
     user: {
-      img: "https://shanekolkoto.github.io/assets/img/resume/131891698_806821109874906_296380606188853188_n.jpg",
+      img: "https://avatars.githubusercontent.com/u/93946405?s=64&v=4",
       full_name: "Shane Morne Kolkoto",
       dob: "1995-04-30",
       country: "South Africa",
